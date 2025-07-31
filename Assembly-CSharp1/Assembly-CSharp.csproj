@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE029AB9-8DAF-4D4B-A3FC-27B858F5C640}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\KnightOnline_302l_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\KnightOnline_302l_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\KnightOnline_302l_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionChat.cs" />
+    <Compile Include="ActionPaint.cs" />
+    <Compile Include="ActionUpdate.cs" />
+    <Compile Include="AnimateEffect.cs" />
+    <Compile Include="Animation.cs" />
+    <Compile Include="ArrayCast.cs" />
+    <Compile Include="Arrow.cs" />
+    <Compile Include="Atb_info.cs" />
+    <Compile Include="AutoGetItem.cs" />
+    <Compile Include="AvMain.cs" />
+    <Compile Include="BackGround.cs" />
+    <Compile Include="Buy_Sell_Screen.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="CatalogyMonster.cs" />
+    <Compile Include="CharPartInfo.cs" />
+    <Compile Include="ChatDetail.cs" />
+    <Compile Include="ChatTextField.cs" />
+    <Compile Include="Clan_Screen.cs" />
+    <Compile Include="Cmd_Message.cs" />
+    <Compile Include="Cout.cs" />
+    <Compile Include="CreateChar.cs" />
+    <Compile Include="CreateImageStatic.cs" />
+    <Compile Include="CRes.cs" />
+    <Compile Include="DataEffAuto.cs" />
+    <Compile Include="DataEffect.cs" />
+    <Compile Include="DataInputStream.cs" />
+    <Compile Include="DataOutputStream.cs" />
+    <Compile Include="DataRebuildItem.cs" />
+    <Compile Include="DataSkillEff.cs" />
+    <Compile Include="DelaySkill.cs" />
+    <Compile Include="EffectAuto.cs" />
+    <Compile Include="EffectCharWearing.cs" />
+    <Compile Include="EffectData.cs" />
+    <Compile Include="EffectEnd.cs" />
+    <Compile Include="EffectManager.cs" />
+    <Compile Include="EffectMonster.cs" />
+    <Compile Include="EffectNum.cs" />
+    <Compile Include="EffectSkill.cs" />
+    <Compile Include="Effect_UpLv_Item.cs" />
+    <Compile Include="EventScreen.cs" />
+    <Compile Include="FilePack.cs" />
+    <Compile Include="FontSys.cs" />
+    <Compile Include="FrameEff.cs" />
+    <Compile Include="FrameImage.cs" />
+    <Compile Include="GameCanvas.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GameMidlet.cs" />
+    <Compile Include="GameScreen.cs" />
+    <Compile Include="GlobalLogicHandler.cs" />
+    <Compile Include="GlobalMessageHandler.cs" />
+    <Compile Include="GlobalService.cs" />
+    <Compile Include="HotKey.cs" />
+    <Compile Include="HTTPHandler.cs" />
+    <Compile Include="IAction.cs" />
+    <Compile Include="IArrow.cs" />
+    <Compile Include="iCommand.cs" />
+    <Compile Include="idSaveImage.cs" />
+    <Compile Include="IKbAction.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="ImageData.cs" />
+    <Compile Include="ImageEffect.cs" />
+    <Compile Include="ImageEffectAuto.cs" />
+    <Compile Include="ImageIcon.cs" />
+    <Compile Include="ImageRequest.cs" />
+    <Compile Include="IMessageHandler.cs" />
+    <Compile Include="IMiniGameMsgHandler.cs" />
+    <Compile Include="IndoServer.cs" />
+    <Compile Include="InfocontenNew.cs" />
+    <Compile Include="Info_Other_Player.cs" />
+    <Compile Include="InputDialog.cs" />
+    <Compile Include="InputStream.cs" />
+    <Compile Include="iOSPlugins.cs" />
+    <Compile Include="iPhoneGeneration.cs" />
+    <Compile Include="iPhoneSettings.cs" />
+    <Compile Include="ipKeyboard.cs" />
+    <Compile Include="ISession.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemMap.cs" />
+    <Compile Include="ItemMapSprite.cs" />
+    <Compile Include="Item_Drop.cs" />
+    <Compile Include="item_sell.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="ListNew.cs" />
+    <Compile Include="ListSkill.cs" />
+    <Compile Include="List_Ip_Server_Screen.cs" />
+    <Compile Include="List_Server.cs" />
+    <Compile Include="LoadData.cs" />
+    <Compile Include="LoadMap.cs" />
+    <Compile Include="LoadMapScreen.cs" />
+    <Compile Include="Load_Data_And_Img.cs" />
+    <Compile Include="LoginScreen.cs" />
+    <Compile Include="LogoScreen.cs" />
+    <Compile Include="LvSkill.cs" />
+    <Compile Include="MagicBeam.cs" />
+    <Compile Include="MagicLogic.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="MainBuff.cs" />
+    <Compile Include="MainClan.cs" />
+    <Compile Include="MainDialog.cs" />
+    <Compile Include="MainEffect.cs" />
+    <Compile Include="MainEffectAuto.cs" />
+    <Compile Include="MainEffHead.cs" />
+    <Compile Include="MainEvent.cs" />
+    <Compile Include="MainFrameEff.cs" />
+    <Compile Include="MainHelp.cs" />
+    <Compile Include="MainImage.cs" />
+    <Compile Include="MainImageDataPartChar.cs" />
+    <Compile Include="MainInfoItem.cs" />
+    <Compile Include="MainItem.cs" />
+    <Compile Include="MainItemMap.cs" />
+    <Compile Include="MainList.cs" />
+    <Compile Include="MainListSkill.cs" />
+    <Compile Include="MainMonster.cs" />
+    <Compile Include="MainObject.cs" />
+    <Compile Include="MainPartImage.cs" />
+    <Compile Include="MainParty.cs" />
+    <Compile Include="MainQuest.cs" />
+    <Compile Include="MainRMS.cs" />
+    <Compile Include="MainScreen.cs" />
+    <Compile Include="MainTabNew.cs" />
+    <Compile Include="MainTemplateItem.cs" />
+    <Compile Include="MainTextChat.cs" />
+    <Compile Include="MainThanhTichClan.cs" />
+    <Compile Include="MapBackGround.cs" />
+    <Compile Include="MapScr.cs" />
+    <Compile Include="Math.cs" />
+    <Compile Include="Menu2.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="mFont.cs" />
+    <Compile Include="mGraphics.cs" />
+    <Compile Include="mHashTable.cs" />
+    <Compile Include="mImage.cs" />
+    <Compile Include="MiniMap.cs" />
+    <Compile Include="MiniMapFull_Screen.cs" />
+    <Compile Include="Minuong.cs" />
+    <Compile Include="mLine.cs" />
+    <Compile Include="MonsterBox.cs" />
+    <Compile Include="MonsterFly.cs" />
+    <Compile Include="Monsterplus.cs" />
+    <Compile Include="MonsterQuest.cs" />
+    <Compile Include="Monstervantieu.cs" />
+    <Compile Include="MonsterWalk.cs" />
+    <Compile Include="Monster_Skill.cs" />
+    <Compile Include="MotherCanvas.cs" />
+    <Compile Include="Mount.cs" />
+    <Compile Include="MountTemplate.cs" />
+    <Compile Include="MsgChat.cs" />
+    <Compile Include="MsgDialog.cs" />
+    <Compile Include="mSocket.cs" />
+    <Compile Include="mSound.cs" />
+    <Compile Include="mSprite.cs" />
+    <Compile Include="mSystem.cs" />
+    <Compile Include="mVector.cs" />
+    <Compile Include="mVector2.cs" />
+    <Compile Include="MyAudioClip.cs" />
+    <Compile Include="MyKeyMap.cs" />
+    <Compile Include="MyRandom.cs" />
+    <Compile Include="myReader.cs" />
+    <Compile Include="MyStream.cs" />
+    <Compile Include="myWriter.cs" />
+    <Compile Include="Net.cs" />
+    <Compile Include="newinput.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="NPCMini.cs" />
+    <Compile Include="NPCserver.cs" />
+    <Compile Include="ObjectData.cs" />
+    <Compile Include="ObjectParty.cs" />
+    <Compile Include="Object_Effect_Skill.cs" />
+    <Compile Include="Other_Players.cs" />
+    <Compile Include="PaintInfoGameScreen.cs" />
+    <Compile Include="Part.cs" />
+    <Compile Include="PartFrame.cs" />
+    <Compile Include="Pet.cs" />
+    <Compile Include="PetFly.cs" />
+    <Compile Include="PetItem.cs" />
+    <Compile Include="PetTool.cs" />
+    <Compile Include="PetWalk.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Point.cs" />
+    <Compile Include="Point_Focus.cs" />
+    <Compile Include="PopupChat.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadMessenge.cs" />
+    <Compile Include="Rms.cs" />
+    <Compile Include="RunWord.cs" />
+    <Compile Include="SaveImageRMS.cs" />
+    <Compile Include="ScaleGUI.cs" />
+    <Compile Include="Scroll.cs" />
+    <Compile Include="ScrollResult.cs" />
+    <Compile Include="SelectCharScreen.cs" />
+    <Compile Include="Session_ME.cs" />
+    <Compile Include="ShipScr.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="SmallImage.cs" />
+    <Compile Include="SMS.cs" />
+    <Compile Include="SplashSkill.cs" />
+    <Compile Include="StoryScreen.cs" />
+    <Compile Include="T.cs" />
+    <Compile Include="TabAll.cs" />
+    <Compile Include="TabConfig.cs" />
+    <Compile Include="TabInfoChar.cs" />
+    <Compile Include="TabLottery.cs" />
+    <Compile Include="TabMySeftNew.cs" />
+    <Compile Include="TabQuest.cs" />
+    <Compile Include="TabRebuildItem.cs" />
+    <Compile Include="TabScreenNew.cs" />
+    <Compile Include="TabShopNew.cs" />
+    <Compile Include="TabSkills.cs" />
+    <Compile Include="TabSkillsNew.cs" />
+    <Compile Include="TE.cs" />
+    <Compile Include="TemCanvas.cs" />
+    <Compile Include="TemGraphics.cs" />
+    <Compile Include="TemMidlet.cs" />
+    <Compile Include="TField.cs" />
+    <Compile Include="ThacNuoc.cs" />
+    <Compile Include="TimecountDown.cs" />
+    <Compile Include="TIndo.cs" />
+    <Compile Include="TouchScreenKeyboard.cs" />
+    <Compile Include="TouchScreenKeyboardType.cs" />
+    <Compile Include="TSpain.cs" />
+    <Compile Include="Usa_Server.cs" />
+    <Compile Include="WeaponInfo.cs" />
+    <Compile Include="WorldMapScreen.cs" />
+    <Compile Include="WPSplashInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
